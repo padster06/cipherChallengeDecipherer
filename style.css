@@ -1,0 +1,94 @@
+*{
+			background-color: grey;
+		} 
+		#jump{
+			visibility: hidden;
+		}
+		#how{
+			border: 2px solid black;
+			font-family: monospace;
+			text-align: center;
+			visibility: hidden;
+		}
+		textarea{
+			position: relative;
+			width: 100px;
+  			transition: width .35s, height .35s;
+  			resize: none;
+			height: 50px;
+			font-size: 20px;
+			color: red;
+			background-color: black; 
+			border-radius: 2px 25px 25px 25px;
+			border: solid 2px red;
+		}
+		textarea:hover {
+			cursor: pointer;
+			width: 250px;
+			color: blue;
+			border: solid 2px blue;
+		}
+		textarea::placeholder{
+			font-size: 17px;
+		}
+		
+		textarea:focus {
+			width: 500px;
+			height: 500px;
+			border: solid 2px blue;
+			color: red;
+		}
+		input{
+			margin-top: 5px;
+			position: relative;
+			width: 100px;
+  			transition: width .35s, height .35s;
+  			resize: none;
+			height: 50px;
+			font-size: 20px;
+			color: red;
+			background-color: black; 
+			border-radius: 2px 25px 25px 25px;
+			border: solid 2px red;
+			font-family: monospace;
+		}
+		input:focus {
+			width: 250px;
+			height: 50px;
+			border: solid 2px blue;
+			color: red;
+		}
+		input::placeholder{
+			font-size: 17px;
+		}
+
+		button{
+			border-radius: 2px 25px 25px 25px;
+			background: #000;
+			width: 100px;
+			height: 50px;
+			
+			
+		}
+		h4{
+			color: black;
+			position: absolute;
+			top: 2px;
+			margin-left: 50px;
+			font-family: monospace;
+		}
+		#en, #reload{
+			color: blue;
+			border-color: blue;
+			margin-top: 5px;
+		}
+
+		#de, #copy{
+			color: red;
+			border-color: red;
+			margin-top: 5px;
+		}
+		
+		#inputs {
+			margin: 50px;
+		}
