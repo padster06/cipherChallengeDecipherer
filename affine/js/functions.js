@@ -4,7 +4,7 @@ function getWords() {
          return response.text();
       })
       .then(function (data) {
-         words2 = data.split('\r\n');
+         words2 = data.split('\n');
       });
 
    fetch('words/3longWords.txt')
@@ -12,7 +12,7 @@ function getWords() {
          return response.text();
       })
       .then(function (data) {
-         words3 = data.split('\r\n');
+         words3 = data.split('\n');
       });
 
    fetch('words/4longWords.txt')
@@ -20,7 +20,7 @@ function getWords() {
          return response.text();
       })
       .then(function (data) {
-         words4 = data.split('\r\n');
+         words4 = data.split('\n');
       });
 
    fetch('words/5longWords.txt')
@@ -28,7 +28,7 @@ function getWords() {
          return response.text();
       })
       .then(function (data) {
-         words5 = data.split('\r\n');
+         words5 = data.split('\n');
       });
 
    fetch('words/6longWords.txt')
@@ -36,7 +36,7 @@ function getWords() {
          return response.text();
       })
       .then(function (data) {
-         words6 = data.split('\r\n');
+         words6 = data.split('\n');
       });
 
    fetch('words/7longWords.txt')
@@ -44,7 +44,7 @@ function getWords() {
          return response.text();
       })
       .then(function (data) {
-         words7 = data.split('\r\n');
+         words7 = data.split('\n');
       });
 
    fetch('words/8longWords.txt')
@@ -52,7 +52,7 @@ function getWords() {
          return response.text();
       })
       .then(function (data) {
-         words8 = data.split('\r\n');
+         words8 = data.split('\n');
       });
 
    console.log('done');
